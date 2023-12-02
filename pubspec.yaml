@@ -1,0 +1,29 @@
+name: test_tdd
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mockito: ^5.4.3
+  given_when_then_unit_test: ^0.2.1
+  shouldly:
+  rxdart: ^0.27.7
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.7
+
+flutter:
+
+  uses-material-design: true
+
