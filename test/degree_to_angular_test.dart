@@ -61,7 +61,7 @@ void main() {
         AngularMeasure(largeDivision: 29, smallDivision: 13),
       ),
     ], (testCase) {
-      given('Given degree measure is ${testCase.arg1.toString()}', () {
+      given('Degree measure is ${testCase.arg1.toString()}', () {
         AngularMeasure? result;
 
         when('Conversion is starting ', () {

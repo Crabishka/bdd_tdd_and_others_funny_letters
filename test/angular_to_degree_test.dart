@@ -70,7 +70,7 @@ void main() {
         AngularMeasure(largeDivision: 29, smallDivision: 13),
       ),
     ], (testCase) {
-      given('Given angular measure is ${testCase.arg2.toString()}', () {
+      given('Angular measure is ${testCase.arg2.toString()}', () {
         DegreeMeasure? result;
 
         when('Conversion is starting ', () {

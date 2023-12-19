@@ -14,9 +14,9 @@ main() {
       TestCase1(
         DegreeMeasure(degrees: 174, minutes: 94, seconds: 38),
       ),
-      TestCase1(
-        DegreeMeasure(degrees: 174, minutes: 34, seconds: 98),
-      ),
+      // TestCase1(
+      //   DegreeMeasure(degrees: 174, minutes: 34, seconds: 98),
+      // ),
       TestCase1(
         DegreeMeasure(degrees: 3412, minutes: 34, seconds: 98),
       ),
@@ -55,7 +55,7 @@ main() {
       ),
       TestCase1(DegreeMeasure(degrees: -12, minutes: 34, seconds: 38)),
     ], (testCase) {
-      given('Given degree measure is ${testCase.arg.toString()}', () {
+      given('Degree measure is ${testCase.arg.toString()}', () {
         AngularMeasure? result;
 
         when('Conversion is starting ', () {

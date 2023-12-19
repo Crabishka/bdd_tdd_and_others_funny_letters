@@ -20,10 +20,10 @@ class ConvertUtil {
     int largeDivision = degreeMeasure.degrees ~/ 6;
     int smallDivision =
     ((degreeMeasure.degrees % 6 * 60 + degreeMeasure.minutes + (degreeMeasure.seconds >= 30 ? 1 : 0)) / 3.6).round();
-    if (smallDivision == 100) {
+   if (smallDivision == 100) {
       largeDivision += 1;
       smallDivision = 0;
-    }
+   }
     return AngularMeasure(largeDivision: largeDivision, smallDivision: smallDivision);
   }
 
